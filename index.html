@@ -6,8 +6,6 @@
     <title>Nicegist</title>
 
     <link rel='dns-prefetch' href='https://api.github.com'>
-    <link rel='dns-prefetch' href='https://www.googletagmanager.com'>
-    <link rel='prefetch' href='https://www.googletagmanager.com/gtag/js'>
 
     <link rel='apple-touch-icon' sizes='57x57' href='/s/static/touch-icons/apple-icon-57x57.png'>
     <link rel='apple-touch-icon' sizes='60x60' href='/s/static/touch-icons/apple-icon-60x60.png'>
@@ -33,7 +31,8 @@
     <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/styles/default.min.css' rel='stylesheet' media='nope' onload='this.media="all"'>
     <link href='/s/static/vendor/github-gist.css' rel='stylesheet' media='nope' onload='this.media="all"'>
 
-    <script src='https://cdn.jsdelivr.net/gh/markdown-it/markdown-it@8.4.2/dist/markdown-it.min.js'></script>
+    <!--script src='https://cdn.jsdelivr.net/gh/markdown-it/markdown-it@8.4.2/dist/markdown-it.min.js'></!--script-->
+    <script src='https://cdn.jsdelivr.net/gh/markdown-it/markdown-it@10.0.0/dist/markdown-it.min.js'></script>
     <script src='/s/static/vendor/markdown-it-anchor@5.0.2.min.js'></script>
     <script src='https://unpkg.com/markdown-it-task-lists@2.1.1/dist/markdown-it-task-lists.min.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/highlight.min.js' async defer></script>
@@ -65,19 +64,12 @@
                     Check out the <a href='https://github.com/nicegist/nicegist.github.io'>source for Nicegist on GitHub</a>
                 </p>
                 <p id='footerPost'>
-                    <a href='https://nicegist.github.io/'>Nicegist</a>
+                    Built with <a href='https://nicegist.github.io/'>Nicegist</a>
                     · writing for hackers · zero setup · publish in seconds
                 </p>
             </footer>
         </div>
     </div>
     <script src='/s/static/app.js' defer></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script src='https://www.googletagmanager.com/gtag/js?id=UA-57728344-3' async defer></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());gtag('config', 'UA-57728344-3');
-    </script>
 </body>
 </html>
